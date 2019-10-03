@@ -402,7 +402,6 @@ def main():
         line = sys.stdin.readline()
         if line == '':
             break
-        print('read a line:', line)
 
         cmd = []
 
@@ -424,7 +423,6 @@ def main():
 
         sys.stdout.flush()
 
-    print('Finished reading input')
     # return exit code 0 on successful termination
     sys.exit(0)
 
